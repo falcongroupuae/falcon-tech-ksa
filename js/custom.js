@@ -104,7 +104,7 @@ $(function () {
   // NOTE: $.countdown.UTCDate month is 0-indexed (0=Jan ... 8=Sep)
   // --------------------------------------------- //
   $("#countdown").countdown({
-    until: $.countdown.UTCDate(+4, 2026, 8, 18), // month 8 = September
+    until: $.countdown.UTCDate(+4, 2026, 8, 1), // month 8 = September
     format: "D",
   });
   // --------------------------------------------- //
