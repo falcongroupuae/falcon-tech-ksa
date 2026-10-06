@@ -224,3 +224,45 @@
     margin-top: 16px;
   }
 }
+
+/* Company logo and contact links */
+.falcon-logo {
+  display: block;
+  width: min(520px, 100%);
+}
+.intro__header .falcon-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.loader__logo {
+  width: min(420px, 80vw);
+  height: auto;
+}
+.falcon-contact-links {
+  display: grid;
+  gap: 18px;
+  margin-top: 26px;
+}
+.falcon-contact-links .falcon-mail {
+  align-items: center;
+  min-height: 44px;
+}
+.falcon-contact-links .falcon-mail span {
+  min-width: 0;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+.falcon-contact-links .falcon-whatsapp i {
+  color: #128c45;
+  font-size: 21px;
+}
+.falcon-contact-links + .falcon-address {
+  margin-top: 24px;
+}
+.falcon-logo:focus-visible,
+.falcon-mail:focus-visible {
+  outline: 2px solid var(--falcon-gold);
+  outline-offset: 5px;
+}
